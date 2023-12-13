@@ -1,0 +1,9 @@
+[[libftdi]]
+arch = "x86_64"
+git-tree-sha1 = "ca47a48992fc24ceabbd8d1a3a0d2cac90ba2369"
+libc = "glibc"
+os = "linux"
+
+    [[libftdi.download]]
+    sha256 = "810b1290678fb989ef8c496d04fad379d22102680bbb56e6a992a86162965783"
+    url = "https://github.com/jqfeld/libftdi_jll.jl/releases/download/libftdi-v1.5.0+0/libftdi.v1.5.0.x86_64-linux-gnu.tar.gz"
