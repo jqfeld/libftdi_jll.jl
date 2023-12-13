@@ -1,9 +1,34 @@
 [[libftdi]]
-arch = "x86_64"
-git-tree-sha1 = "ca47a48992fc24ceabbd8d1a3a0d2cac90ba2369"
+arch = "i686"
+git-tree-sha1 = "85ab6ebcb5d69827ad5e9167f7e6bf510e4a309d"
 libc = "glibc"
 os = "linux"
 
     [[libftdi.download]]
-    sha256 = "810b1290678fb989ef8c496d04fad379d22102680bbb56e6a992a86162965783"
+    sha256 = "1f1c075738eec718c358aa678d9eea3d413a3441e7ba273de5dd49dcf80473f5"
+    url = "https://github.com/jqfeld/libftdi_jll.jl/releases/download/libftdi-v1.5.0+0/libftdi.v1.5.0.i686-linux-gnu.tar.gz"
+[[libftdi]]
+arch = "i686"
+git-tree-sha1 = "2af2215a2062f4dc20688eefb0d3a3d80e4e4917"
+os = "windows"
+
+    [[libftdi.download]]
+    sha256 = "8687dbd0d677fe715ae1c321a0801a36dd04cf72f57d9d0b9e40b84b3747df87"
+    url = "https://github.com/jqfeld/libftdi_jll.jl/releases/download/libftdi-v1.5.0+0/libftdi.v1.5.0.i686-w64-mingw32.tar.gz"
+[[libftdi]]
+arch = "x86_64"
+git-tree-sha1 = "f87834e7e9007551cf5cff9e9a9ecacf56314eaf"
+libc = "glibc"
+os = "linux"
+
+    [[libftdi.download]]
+    sha256 = "a146249aa0786a54e15caebe51e7ab50ce99ff64984398818485ea7d441465a9"
     url = "https://github.com/jqfeld/libftdi_jll.jl/releases/download/libftdi-v1.5.0+0/libftdi.v1.5.0.x86_64-linux-gnu.tar.gz"
+[[libftdi]]
+arch = "x86_64"
+git-tree-sha1 = "5864c35cdccf4ef02d47f1eb8058146a89dc17c3"
+os = "windows"
+
+    [[libftdi.download]]
+    sha256 = "4a51ff6e04478f543480c63fa3d14916dd82bfa471a9efdec7b6f82a52f5c185"
+    url = "https://github.com/jqfeld/libftdi_jll.jl/releases/download/libftdi-v1.5.0+0/libftdi.v1.5.0.x86_64-w64-mingw32.tar.gz"
